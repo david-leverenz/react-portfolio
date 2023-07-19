@@ -19,7 +19,7 @@ When you view the footer you are presented with text or icon links to my GitHub 
 
 ## Links
 **GitHub:** https://github.com/david-leverenz/react-portfolio<br>
-**Live Link:** <br>
+**Live Link:** https://david-leverenz.github.io/react-portfolio/<br>
 **Screen Shot:** <br>
 
 
@@ -38,6 +38,6 @@ Version 1.0 Initial Release
 ## License
 This project is licensed under the MIT license.
 ## Acknowledgments
-Special thanks to Matt Chiaro who helped with the final webpack changes.
+Who will receive the honor of my acknowledgement?
 
 
