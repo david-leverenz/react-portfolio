@@ -1,11 +1,11 @@
-const Homepage = () => {
+const Resume = () => {
 
     return (
         <div>
             <h1>Header</h1>
-            <p>Homepage</p>
+            <p>Resume</p>
         </div>
     )
 }
 
-export default Homepage
+export default Resume

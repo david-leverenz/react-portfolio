@@ -1,25 +1,33 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Homepage from './components/pages/Homepage';
+import Portfolio from './components/pages/Portfolio';
+import AboutMe from './components/pages/AboutMe';
+import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
 
 function App() {
 
   return (
     <Router>
-    <div className="">
-      <Link to="/">Home</Link>
-      <Link to="/profile">profile</Link>
-      <Link to="/contact">Contact</Link>
-      <div className='pageContainer'>
+      <div className="">
+        <Link to="/"><h1>David Leverenz</h1></Link>
+        <Link to="/aboutMe">About Me</Link>
+        <Link to="/portfolio">Portfolio</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/resume">Resume</Link>
+        <div className='pageContainer'>
 
+        </div>
       </div>
-    </div>
-    <Routes>
-      <Route path="/" element={<Homepage />} />
-      <Route path="/profile" element={<h1>Profile</h1>} />
-      <Route path="/contact" element={<h1>Contact</h1>} />
-    </Routes>
-    {/* <footer></footer> */}
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/aboutMe" element={<AboutMe />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+      {/* <footer></footer> */}
     </Router>
   );
 }
