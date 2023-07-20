@@ -7,7 +7,7 @@ function NavTabs({ currentPage, }) {
         {/* <a
           href="#home"
           onClick={() => handlePageChange('Home')} */}
-          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for, ternary if then
+          {/* //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for, ternary if then */}
 
           className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
         {/* > */}
@@ -18,7 +18,7 @@ function NavTabs({ currentPage, }) {
         {/* <a
           href="#about"
           onClick={() => handlePageChange('About')} */}
-          //  TODO: Add a comment explaining what this logic is doing
+          {/* //  TODO: Add a comment explaining what this logic is doing */}
 
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         {/* >
@@ -29,7 +29,7 @@ function NavTabs({ currentPage, }) {
         {/* <a
           href="#blog"
           onClick={() => handlePageChange('Blog')} */}
-          //  TODO: Add a comment explaining what this logic is doing
+          {/* //  TODO: Add a comment explaining what this logic is doing */}
 
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         {/* >

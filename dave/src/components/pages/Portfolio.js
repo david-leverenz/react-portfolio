@@ -1,9 +1,10 @@
+import PortfolioImages from '../PortfolioImages'
 const Portfolio = () => {
 
     return (
         <div>
-            <h1>Header</h1>
-            <p>Portfolio</p>
+            <h2>Portfolio</h2>
+            <PortfolioImages />
         </div>
     )
 }

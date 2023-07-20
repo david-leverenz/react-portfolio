@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './Leverenz_LinkedIn219.jpg';
+import dave from './images/Leverenz_LinkedIn219.jpg';
 
-console.log(logo); // /logo.84287d09.png
+console.log(dave); 
 
 function Header() {
-  // Import result is the URL of your image
-  return <img style={{ width: 120, height: 120 }} src={logo} alt="picture of Dave" />;
+
+  return <img style={{ width: 140, height: 140 }} src={dave} alt="David Leverenz" />;
 }
 
 export default Header;

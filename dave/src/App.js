@@ -5,7 +5,7 @@ import Portfolio from './components/pages/Portfolio';
 import AboutMe from './components/pages/AboutMe';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
-import NavTabs from './components/NavTabs';
+// import NavTabs from './components/NavTabs';
 
 function App() {
 
