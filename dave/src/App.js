@@ -11,7 +11,7 @@ function App() {
 
   return (
     <Router>
-      <div className="navBar">
+      <div className="navBar p-4">
         <h1>David Leverenz</h1>
         {/* <Link to="/"></Link> */}
         <Link to="/">About Me</Link>
