@@ -5,14 +5,16 @@ import Portfolio from './components/pages/Portfolio';
 import AboutMe from './components/pages/AboutMe';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
+import NavTabs from './components/NavTabs';
 
 function App() {
 
   return (
     <Router>
-      <div className="">
-        <Link to="/"><h1>David Leverenz</h1></Link>
-        <Link to="/aboutMe">About Me</Link>
+      <div className="navBar">
+        <h1>David Leverenz</h1>
+        {/* <Link to="/"></Link> */}
+        <Link to="/">About Me</Link>
         <Link to="/portfolio">Portfolio</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/resume">Resume</Link>
@@ -21,8 +23,8 @@ function App() {
         </div>
       </div>
       <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/aboutMe" element={<AboutMe />} />
+        {/* <Route path="/" element={<Homepage />} /> */}
+        <Route path="/" element={<AboutMe />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
