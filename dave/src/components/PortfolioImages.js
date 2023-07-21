@@ -12,8 +12,8 @@ function PortfolioImages() {
 
     return <div className="p-4">
         <div>
-            <a href="#">
-                <h3>First</h3>
+            <a href="#" className="text-decoration=none">
+                <h3 >First</h3>
                 <img style={{ width: 140, height: 140 }} src={p1Image} alt="David Leverenz" />
             </a>
         </div>

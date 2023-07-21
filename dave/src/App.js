@@ -11,13 +11,13 @@ function App() {
 
   return (
     <Router>
-      <div className="navBar p-4">
+      <div className="navBar p-4 text-decoration-none">
         <h1>David Leverenz</h1>
         {/* <Link to="/"></Link> */}
-        <Link to="/">About Me</Link>
-        <Link to="/portfolio">Portfolio</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/resume">Resume</Link>
+        <Link to="/"><p className="text-decoration-none">About Me</p></Link>
+        <Link to="/portfolio"><p className="text-decoration-none">Portfolio</p></Link>
+        <Link to="/contact"><p className="text-decoration-none">Contact</p></Link>
+        <Link to="/resume"><p className="text-decoration-none">Resume</p></Link>
         <div className='pageContainer'>
 
         </div>

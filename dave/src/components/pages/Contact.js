@@ -1,9 +1,11 @@
+import Form from '../Form';
+
 const Contact = () => {
 
     return (
-        <div>
-            <h1>Header</h1>
-            <p>Contact</p>
+        <div className="p-4">
+            <h2>Header</h2>
+            <Form />
         </div>
     )
 }
