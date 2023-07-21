@@ -10,7 +10,8 @@ console.log(p1Image);
 
 function PortfolioImages() {
 
-    return <div className="p-4 container bg-secondary">
+    return <div className="p-2">
+    <div className="p-4 container bg-secondary">
 
         <div className="row">
             <div className="col">
@@ -56,6 +57,7 @@ function PortfolioImages() {
                 </a>
             </div>
         </div>
+    </div>
     </div>
 }
 

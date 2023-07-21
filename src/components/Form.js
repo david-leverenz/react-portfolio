@@ -63,43 +63,53 @@ function Form() {
     };
 
     return (
-        <div className="">
-            <form className="form">
-                <input
-                    value={name}
-                    name="name"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="Name"
-                />
-                <input
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="email"
-                    placeholder="Email"
-                />
+        <div className="p-2">
+            <div className="p-4 container bg-secondary">
+                <div className="row">
+                <div className="col"></div>
+                <div className="col">
+                    <form className="form">
+                        <input className="rounded"
+                            value={name}
+                            name="name"
+                            onChange={handleInputChange}
+                            type="text"
+                            placeholder="  Name"
+                        />
+                        <input className="rounded"
+                            value={email}
+                            name="email"
+                            onChange={handleInputChange}
+                            type="email"
+                            placeholder="  Email"
+                        />
 
-                <textarea
-                    value={message}
-                    name="message"
-                    onChange={handleInputChange}
-                    type="message"
-                    placeholder="Message"
-                    rows="5"
-                    cols="68"
-                />
-                <p>
-                    <button type="button" onClick={handleFormSubmit}>
-                        Submit
-                    </button>
-                </p>
-            </form>
-            {errorMessage && (
-                <div>
-                    <p className="error-text ps-4">{errorMessage}</p>
+                        <textarea className="form-control rounded"
+                            value={message}
+                            name="message"
+                            onChange={handleInputChange}
+                            type="message"
+                            placeholder="Message"
+                            rows="5"
+                            // cols="68"
+                        />
+                        <p>
+                            <div className="d-grid pt-2">
+                            <button className="btn btn-outline-light" type="button" onClick={handleFormSubmit}>
+                                Submit
+                            </button>
+                            </div>
+                        </p>
+                    </form>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text text-light">{errorMessage}</p>
+                        </div>
+                    )}
+                    </div>
+                    <div className="col"></div>
                 </div>
-            )}
+            </div>
         </div>
     );
 }

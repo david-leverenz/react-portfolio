@@ -3,9 +3,15 @@ import Form from '../Form';
 const Contact = () => {
 
     return (
-        <div className="p-4">
-            <h2>Contact Me</h2>
-            <Form />
+                <div className="container">
+            <div >
+                <div className="row">
+                    <div className='col'>
+                        <h2 className="ms-2">Contact Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div><Form /></div>
         </div>
     )
 }

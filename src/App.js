@@ -47,7 +47,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
       </Routes>
    
-      <footer className="footer bg-secondary rounded-bottom m-2">
+      <footer className="footer bg-secondary rounded-bottom m-3 border border-3 border-light">
         <div className="d-flex justify-content-center">
           <a href="https://www.linkedin.com/in/david-leverenz" className="text-decoration=none align-items-center">
             <LIImage />
