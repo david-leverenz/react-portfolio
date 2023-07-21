@@ -6,7 +6,7 @@ const Portfolio = () => {
             <div >
                 <div className="row">
                     <div className='col'>
-                        <h2 className="ms-2">Portfolio</h2>
+                        <h2 className="ms-2 text-secondary">Portfolio</h2>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ const Contact = () => {
             <div >
                 <div className="row">
                     <div className='col'>
-                        <h2 className="ms-2">Contact Me</h2>
+                        <h2 className="ms-2 text-secondary">Contact Me</h2>
                     </div>
                 </div>
             </div>
