@@ -12,7 +12,7 @@ function App() {
 
   return (
     <Router>
-      <div className="navBar p-4 text-decoration-none">
+      <div className="navBar">
         <nav className="navbar navbar-light bg-secondary rounded-top">
           <div className="container-fluid">
 
@@ -23,18 +23,18 @@ function App() {
               <Link style={{ textDecoration: 'none' }} to="/"><p className="nav-link active text-white" aria-current="page">About Me</p></Link>
             </li>
             <li className="nav-item">
-              <Link style={{ textDecoration: 'none' }} to="/portfolio"><p className="nav-link text-decoration-none text-white">Portfolio</p></Link>
+              <Link style={{ textDecoration: 'none' }} to="/portfolio"><p className="nav-link text-white">Portfolio</p></Link>
             </li>
             <li className="nav-item">
-              <Link style={{ textDecoration: 'none' }} to="/contact"><p className="nav-link text-decoration-none text-white">Contact</p></Link>
+              <Link style={{ textDecoration: 'none' }} to="/contact"><p className="nav-link text-white">Contact</p></Link>
             </li>
             <li className="nav-item">
 
-              <Link style={{ textDecoration: 'none' }} to="/resume"><p className="nav-link disabled text-decoration-none text-white">Resume</p></Link>
+              <Link style={{ textDecoration: 'none' }} to="/resume"><p className="nav-link disabled text-white">Resume</p></Link>
             </li>
           </ul>
         </nav>
-        <div className='pageContainer'>
+        <div className="pageContainer display-flex flex-direction-colum justify-content-center align-items-flex-start">
         </div>
         {/* In bootstrap-5 pl and pr is replaced ps and pe respectively */}
       </div>
