@@ -14,13 +14,13 @@ function PortfolioImages() {
 
         <div className="row">
             <div className="col">
-                <a className="text-decoration-none text-center" href="#" >
+                <a className="text-decoration-none text-center text-white" href="#" >
                     <h3>First</h3>
                     <img style={{ width: 140, height: 140 }} className="rounded mx-auto d-block" src={p1Image} alt="David Leverenz" />
                 </a>
             </div>
             <div className="col">
-                <a className="text-decoration-none text-center" href="#">
+                <a className="text-decoration-none text-center text-white" href="#">
                     <h3>Second</h3>
                     <img style={{ width: 140, height: 140 }} className="rounded mx-auto d-block" src={p2Image} alt="David Leverenz" />
                 </a>
@@ -30,13 +30,13 @@ function PortfolioImages() {
 
         <div className="row pt-5">
             <div className="col">
-                <a className="text-decoration-none text-center" href="#">
+                <a className="text-decoration-none text-center text-white" href="#">
                     <h3>Third</h3>
                     <img style={{ width: 140, height: 140 }} className="rounded mx-auto d-block" src={p3Image} alt="David Leverenz" />
                 </a>
             </div>
             <div className="col">
-                <a className="text-decoration-none text-center" href="#">
+                <a className="text-decoration-none text-center text-white" href="#">
                     <h3>Fourth</h3>
                     <img style={{ width: 140, height: 140 }} className="rounded mx-auto d-block" src={p4Image} alt="David Leverenz" />
                 </a>
@@ -44,13 +44,13 @@ function PortfolioImages() {
         </div>
         <div className="row pt-5">
             <div className="col">
-                <a className="text-decoration-none text-center" href="#">
+                <a className="text-decoration-none text-center text-white" href="#">
                     <h3>Fifth</h3>
                     <img style={{ width: 140, height: 140 }} className="rounded mx-auto d-block" src={p5Image} alt="David Leverenz" />
                 </a>
             </div>
             <div className="col">
-                <a className="text-decoration-none text-center" href="#">
+                <a className="text-decoration-none text-center text-white" href="#">
                     <h3>Sixth</h3>
                     <img style={{ width: 140, height: 140 }} className="rounded mx-auto d-block" src={p6Image} alt="David Leverenz" />
                 </a>
