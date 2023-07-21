@@ -52,8 +52,7 @@ function Form() {
     };
 
     return (
-        <div className="p-4">
-            <p>Please Contact Me</p>
+        <div className="">
             <form className="form">
                 <input
                     value={name}
@@ -70,16 +69,20 @@ function Form() {
                     placeholder="Email"
                 />
 
-                <input
+                <textarea
                     value={message}
                     name="message"
                     onChange={handleInputChange}
                     type="message"
                     placeholder="Message"
+                    rows="5"
+                    cols="68"
                 />
+                <p>
                 <button type="button" onClick={handleFormSubmit}>
                     Submit
                 </button>
+                </p>
             </form>
             {errorMessage && (
                 <div>
