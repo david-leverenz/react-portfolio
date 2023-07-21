@@ -13,24 +13,24 @@ function App() {
   return (
     <Router>
       <div className="navBar p-4 text-decoration-none">
-        <nav class="navbar navbar-light bg-secondary rounded-top">
+        <nav className="navbar navbar-light bg-secondary rounded-top">
           <div className="container-fluid">
 
           </div>
           <h1 className="text-white ps-2">David Leverenz</h1>
           <ul className="nav justify-content-end pt-2">
             <li className="nav-item">
-              <Link style={{textDecoration: 'none'}} to="/"><p className="nav-link active text-white" aria-current="page">About Me</p></Link>
+              <Link style={{ textDecoration: 'none' }} to="/"><p className="nav-link active text-white" aria-current="page">About Me</p></Link>
             </li>
             <li className="nav-item">
-              <Link style={{textDecoration: 'none'}} to="/portfolio"><p className="nav-link text-decoration-none text-white">Portfolio</p></Link>
+              <Link style={{ textDecoration: 'none' }} to="/portfolio"><p className="nav-link text-decoration-none text-white">Portfolio</p></Link>
             </li>
             <li className="nav-item">
-              <Link style={{textDecoration: 'none'}} to="/contact"><p className="nav-link text-decoration-none text-white">Contact</p></Link>
+              <Link style={{ textDecoration: 'none' }} to="/contact"><p className="nav-link text-decoration-none text-white">Contact</p></Link>
             </li>
             <li className="nav-item">
 
-              <Link style={{textDecoration: 'none'}} to="/resume"><p className="nav-link disabled text-decoration-none text-white">Resume</p></Link>
+              <Link style={{ textDecoration: 'none' }} to="/resume"><p className="nav-link disabled text-decoration-none text-white">Resume</p></Link>
             </li>
           </ul>
         </nav>
@@ -44,11 +44,15 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
-      <footer>
-        <a href="https://www.linkedin.com/in/david-leverenz" className="text-decoration=none align-items-center p-5">
-          <LIImage />
-        </a>
+      <footer className="footer bg-secondary rounded-bottom m-4">
+        <div className="d-flex justify-content-center">
+          <a href="https://www.linkedin.com/in/david-leverenz" className="text-decoration=none align-items-center p-5">
+            <LIImage />
+          </a>
+        </div>
       </footer>
+
+
     </Router >
   );
 }
