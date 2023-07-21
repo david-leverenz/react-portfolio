@@ -6,12 +6,18 @@ import AboutMe from './components/pages/AboutMe';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 // import NavTabs from './components/NavTabs';
+import LIImage from './components/LIImage'
 
 function App() {
 
   return (
     <Router>
       <div className="navBar p-4 text-decoration-none">
+        <nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+
+  </div>
+
         <h1>David Leverenz</h1>
         {/* <Link to="/"></Link> */}
         <Link to="/"><p className="text-decoration-none">About Me</p></Link>
@@ -21,6 +27,7 @@ function App() {
         <div className='pageContainer'>
 
         </div>
+        </nav>
       </div>
       <Routes>
         {/* <Route path="/" element={<Homepage />} /> */}
@@ -29,7 +36,11 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
-      {/* <footer></footer> */}
+      <footer>
+        <a href="https://www.linkedin.com/in/david-leverenz"className="text-decoration=none align-items-center p-5">
+                <LIImage />
+            </a>
+      </footer>
     </Router>
   );
 }
