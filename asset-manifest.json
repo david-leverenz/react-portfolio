@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.a4a5d91e.css",
+    "main.js": "/react-portfolio/static/js/main.5109bdcb.js",
+    "static/js/787.6bf44f92.chunk.js": "/react-portfolio/static/js/787.6bf44f92.chunk.js",
+    "static/media/Leverenz_LinkedIn219.jpg": "/react-portfolio/static/media/Leverenz_LinkedIn219.8f44b32a786603601dae.jpg",
+    "static/media/linkedin-logo-linkedin-icon-transparent-free-png.webp": "/react-portfolio/static/media/linkedin-logo-linkedin-icon-transparent-free-png.c593fb09e0e564af375e.webp",
+    "index.html": "/react-portfolio/index.html",
+    "main.a4a5d91e.css.map": "/react-portfolio/static/css/main.a4a5d91e.css.map",
+    "main.5109bdcb.js.map": "/react-portfolio/static/js/main.5109bdcb.js.map",
+    "787.6bf44f92.chunk.js.map": "/react-portfolio/static/js/787.6bf44f92.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4a5d91e.css",
+    "static/js/main.5109bdcb.js"
+  ]
+}
