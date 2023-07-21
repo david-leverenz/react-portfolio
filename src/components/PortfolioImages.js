@@ -12,13 +12,13 @@ function PortfolioImages() {
 
     return <div className="p-4">
         <div>
-            <a href="#" className="text-decoration=none">
-                <h3 >First</h3>
+            <a className="text-decoration-none" href="#" >
+                <h3>First</h3>
                 <img style={{ width: 140, height: 140 }} src={p1Image} alt="David Leverenz" />
             </a>
         </div>
         <div>
-        <a href="#">
+        <a className="text-decoration-none" href="#">
             <h3>Second</h3>
             <img style={{ width: 140, height: 140 }} src={p2Image} alt="David Leverenz" />
             </a>

@@ -22,13 +22,19 @@ function Form() {
         // Based on the input type, we set the state of either email, username, and password
         // TODO: Add an else statement to the end that will set the password to the value of 'inputValue'
 
-        if (inputType === 'name') {
+        if (inputType === 'name' && inputValue.length > 0) {
             setName(inputValue);
-        } else if (inputType === 'email') {
+        } else if (inputType === 'email' && inputValue.length > 0) {
             setEmail(inputValue);
-        } else {
+        } else if (inputType === 'message' && inputValue.length > 0) {
             setMessage(inputValue)
+        } else {
+            setErrorMessage("All fields are required.")
+            setEmail("");
+            setName("");
+            setMessage("");
         }
+
     };
 
     const handleFormSubmit = (e) => {
@@ -45,7 +51,7 @@ function Form() {
             setErrorMessage('Please include a message');
             return;
         }
-   
+
 
         // If successful, we want to clear out the input after registration.
         setName('');
@@ -84,9 +90,9 @@ function Form() {
                     cols="68"
                 />
                 <p>
-                <button type="button" onClick={handleFormSubmit}>
-                    Submit
-                </button>
+                    <button type="button" onClick={handleFormSubmit}>
+                        Submit
+                    </button>
                 </p>
             </form>
             {errorMessage && (
