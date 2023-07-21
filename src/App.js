@@ -12,11 +12,11 @@ function App() {
 
   return (
     <Router>
+            <div className="pageContainer display-flex flex-direction-colum justify-content-center align-items-flex-start">
+      <div className="container">
       <div className="navBar">
         <nav className="navbar navbar-light bg-secondary rounded-top">
-          <div className="container-fluid">
-
-          </div>
+  
           <h1 className="text-white ps-2">David Leverenz</h1>
           <ul className="nav justify-content-end pt-2">
             <li className="nav-item">
@@ -34,24 +34,28 @@ function App() {
             </li>
           </ul>
         </nav>
-        <div className="pageContainer display-flex flex-direction-colum justify-content-center align-items-flex-start">
-        </div>
-        {/* In bootstrap-5 pl and pr is replaced ps and pe respectively */}
+
       </div>
+
+        
+        {/* In bootstrap-5 pl and pr is replaced ps and pe respectively */}
+      
       <Routes>
         <Route path="/" element={<AboutMe />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
-      <footer className="footer bg-secondary rounded-bottom m-4">
+   
+      <footer className="footer bg-secondary rounded-bottom m-2">
         <div className="d-flex justify-content-center">
-          <a href="https://www.linkedin.com/in/david-leverenz" className="text-decoration=none align-items-center p-5">
+          <a href="https://www.linkedin.com/in/david-leverenz" className="text-decoration=none align-items-center">
             <LIImage />
           </a>
         </div>
       </footer>
-
+      </div>
+      </div>
 
     </Router >
   );

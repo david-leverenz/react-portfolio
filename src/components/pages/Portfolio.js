@@ -2,9 +2,15 @@ import PortfolioImages from '../PortfolioImages'
 const Portfolio = () => {
 
     return (
-        <div className="p-4">
-            <h2>Portfolio</h2>
-            <PortfolioImages />
+        <div className="container">
+            <div >
+                <div className="row">
+                    <div className='col'>
+                        <h2>Portfolio</h2>
+                    </div>
+                </div>
+            </div>
+            <div><PortfolioImages /></div>
         </div>
     )
 }

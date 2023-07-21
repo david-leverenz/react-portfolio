@@ -10,7 +10,8 @@ console.log(p1Image);
 
 function PortfolioImages() {
 
-    return <div className="p-4 container">
+    return <div className="p-4 container bg-secondary">
+
         <div className="row">
             <div className="col">
                 <a className="text-decoration-none text-center" href="#" >
