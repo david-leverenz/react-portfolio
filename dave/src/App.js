@@ -13,35 +13,43 @@ function App() {
   return (
     <Router>
       <div className="navBar p-4 text-decoration-none">
-        <nav class="navbar navbar-light bg-light">
-  <div class="container-fluid">
+        <nav class="navbar navbar-light bg-secondary rounded-top">
+          <div className="container-fluid">
 
-  </div>
+          </div>
+          <h1 className="text-white ps-2">David Leverenz</h1>
+          <ul className="nav justify-content-end pt-2">
+            <li className="nav-item">
+              <Link style={{textDecoration: 'none'}} to="/"><p className="nav-link active text-white" aria-current="page">About Me</p></Link>
+            </li>
+            <li className="nav-item">
+              <Link style={{textDecoration: 'none'}} to="/portfolio"><p className="nav-link text-decoration-none text-white">Portfolio</p></Link>
+            </li>
+            <li className="nav-item">
+              <Link style={{textDecoration: 'none'}} to="/contact"><p className="nav-link text-decoration-none text-white">Contact</p></Link>
+            </li>
+            <li className="nav-item">
 
-        <h1>David Leverenz</h1>
-        {/* <Link to="/"></Link> */}
-        <Link to="/"><p className="text-decoration-none">About Me</p></Link>
-        <Link to="/portfolio"><p className="text-decoration-none">Portfolio</p></Link>
-        <Link to="/contact"><p className="text-decoration-none">Contact</p></Link>
-        <Link to="/resume"><p className="text-decoration-none">Resume</p></Link>
-        <div className='pageContainer'>
-
-        </div>
+              <Link style={{textDecoration: 'none'}} to="/resume"><p className="nav-link disabled text-decoration-none text-white">Resume</p></Link>
+            </li>
+          </ul>
         </nav>
+        <div className='pageContainer'>
+        </div>
+        {/* In bootstrap-5 pl and pr is replaced ps and pe respectively */}
       </div>
       <Routes>
-        {/* <Route path="/" element={<Homepage />} /> */}
         <Route path="/" element={<AboutMe />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
       <footer>
-        <a href="https://www.linkedin.com/in/david-leverenz"className="text-decoration=none align-items-center p-5">
-                <LIImage />
-            </a>
+        <a href="https://www.linkedin.com/in/david-leverenz" className="text-decoration=none align-items-center p-5">
+          <LIImage />
+        </a>
       </footer>
-    </Router>
+    </Router >
   );
 }
 

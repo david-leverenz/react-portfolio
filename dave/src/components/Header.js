@@ -5,7 +5,7 @@ console.log(dave);
 
 function Header() {
 
-  return <img style={{ width: 140, height: 140 }} src={dave} alt="David Leverenz" />;
+  return <img className="rounded" style={{ width: 140, height: 140 }} src={dave} alt="David Leverenz" />;
 }
 
 export default Header;
