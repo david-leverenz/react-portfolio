@@ -41,6 +41,11 @@ function Form() {
             // We want to exit out of this code block if something is wrong so that the user can correct it
             return;
         }
+        if (!message) {
+            setErrorMessage('Please include a message');
+            return;
+        }
+   
 
         // If successful, we want to clear out the input after registration.
         setName('');
@@ -86,7 +91,7 @@ function Form() {
             </form>
             {errorMessage && (
                 <div>
-                    <p className="error-text">{errorMessage}</p>
+                    <p className="error-text ps-4">{errorMessage}</p>
                 </div>
             )}
         </div>
