@@ -15,7 +15,7 @@ function App() {
             <div className="pageContainer display-flex flex-direction-colum justify-content-center align-items-flex-start">
       <div className="container">
       <div className="navBar">
-        <nav className="navbar navbar-light bg-secondary rounded-top">
+        <nav className="navbar navbar-light bg-secondary rounded-top-4">
   
           <h1 className="text-white ps-2">David Leverenz</h1>
           <ul className="nav justify-content-end pt-2">
@@ -47,7 +47,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
       </Routes>
    
-      <footer className="footer bg-secondary rounded-bottom m-3 border border-3 border-light">
+      <footer className="footer bg-secondary rounded-bottom-4 m-3 border border-3 border-white">
         <div className="d-flex justify-content-center">
           <a href="https://www.linkedin.com/in/david-leverenz" className="text-decoration=none align-items-center">
             <LIImage />
