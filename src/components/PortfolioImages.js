@@ -11,51 +11,62 @@ console.log(p1Image);
 function PortfolioImages() {
 
     return <div className="p-2">
-    <div className="p-4 container bg-secondary">
+        <div className="p-4 container bg-secondary">
 
-        <div className="row pt-3">
-            <div className="col">
-                <a className="text-decoration-none text-center text-white" href="https://glacial-retreat-55069-949bcbbb662e.herokuapp.com/" >
-                    <h3>Conversa</h3>
-                    <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p1Image} alt="David Leverenz" />
-                </a>
+            <div className="row pt-3">
+                <div className="col">
+                    <a className="text-decoration-none text-center text-white" href="https://glacial-retreat-55069-949bcbbb662e.herokuapp.com/" >
+                        <h3>Conversa</h3>
+                        <div className="card">
+                        <img style={{ width: 400, height: 270 }} className="card-img rounded mx-auto d-block justify-content-center align-items-center" src={p1Image} alt="David Leverenz" />
+                        <div class="card-img-overlay">
+                            <p class="p-2 card-text bg-light bg-gradient rounded text-secondary border border-secondary">
+                                This is a chat app using socket.io
+                            </p>
+                            </div>
+                        </div>
+
+
+                    </a>
+                </div>
+                <div className="col">
+                    <a className="text-decoration-none text-center text-white" href="https://david-leverenz.github.io/day-after-tomorrow/">
+                        <h3>Day After Tomorrow</h3>
+                     
+                        <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p2Image} alt="David Leverenz" />
+                    </a>
+       
+                </div>
             </div>
-            <div className="col">
-                <a className="text-decoration-none text-center text-white" href="https://david-leverenz.github.io/day-after-tomorrow/">
-                    <h3>Day After Tomorrow</h3>
-                    <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p2Image} alt="David Leverenz" />
-                </a>
+            <div className="row pt-5">
+                <div className="col">
+                    <a className="text-decoration-none text-center text-white" href="https://afternoon-plateau-91996-143dd3e291e8.herokuapp.com/">
+                        <h3>MVC Tech Blog</h3>
+                        <img style={{ width: 420, height: 300 }} className="rounded mx-auto d-block" src={p3Image} alt="David Leverenz" />
+                    </a>
+                </div>
+                <div className="col">
+                    <a className="text-decoration-none text-center text-white" href="https://vast-chamber-54379-1932ca03f16e.herokuapp.com/">
+                        <h3>Text Editor (PWA)</h3>
+                        <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p4Image} alt="David Leverenz" />
+                    </a>
+                </div>
+            </div>
+            <div className="row pt-5 pb-3">
+                <div className="col">
+                    <a className="text-decoration-none text-center text-white" href="https://shielded-wave-83330-57af74f626fa.herokuapp.com/">
+                        <h3>Note Taker</h3>
+                        <img style={{ width: 400, height: 250 }} className="rounded mx-auto d-block" src={p5Image} alt="David Leverenz" />
+                    </a>
+                </div>
+                <div className="col">
+                    <a className="text-decoration-none text-center text-white" href="https://david-leverenz.github.io/weather-dashboard/">
+                        <h3>Weather Dashboard</h3>
+                        <img style={{ width: 400, height: 280 }} className="rounded mx-auto d-block" src={p6Image} alt="David Leverenz" />
+                    </a>
+                </div>
             </div>
         </div>
-        <div className="row pt-5">
-            <div className="col">
-                <a className="text-decoration-none text-center text-white" href="https://afternoon-plateau-91996-143dd3e291e8.herokuapp.com/">
-                    <h3>MVC Tech Blog</h3>
-                    <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p3Image} alt="David Leverenz" />
-                </a>
-            </div>
-            <div className="col">
-                <a className="text-decoration-none text-center text-white" href="https://vast-chamber-54379-1932ca03f16e.herokuapp.com/">
-                    <h3>Text Editor (PWA)</h3>
-                    <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p4Image} alt="David Leverenz" />
-                </a>
-            </div>
-        </div>
-        <div className="row pt-5 pb-3">
-            <div className="col">
-                <a className="text-decoration-none text-center text-white" href="https://shielded-wave-83330-57af74f626fa.herokuapp.com/">
-                    <h3>Note Taker</h3>
-                    <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p5Image} alt="David Leverenz" />
-                </a>
-            </div>
-            <div className="col">
-                <a className="text-decoration-none text-center text-white" href="https://david-leverenz.github.io/weather-dashboard/">
-                    <h3>Weather Dashboard</h3>
-                    <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p6Image} alt="David Leverenz" />
-                </a>
-            </div>
-        </div>
-    </div>
     </div>
 }
 
