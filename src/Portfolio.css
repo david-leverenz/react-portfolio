@@ -1,0 +1,24 @@
+#darkCard {
+    background-color: #6c757d;
+    border: none;
+    
+}
+
+#lightOverlay {
+    padding: 8px;
+    margin: 40px;
+    color:  black;
+    background-color: white;
+    border-radius: 8px ;
+    opacity: 0.75;
+    
+}
+
+#darkOverlay {
+    padding: 8px;
+    margin: 40px;
+    color: white;
+    background-color: #6c757d;
+    border-radius: 8px ;
+    opacity: 0.75;
+}

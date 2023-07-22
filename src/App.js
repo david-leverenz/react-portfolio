@@ -49,6 +49,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
+          
 
           <footer className="footer bg-secondary rounded-bottom-4 m-3 border border-3 border-white">
             <div className="d-flex justify-content-center align-items-center">
