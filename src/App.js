@@ -7,8 +7,9 @@ import Resume from './components/pages/Resume';
 import LIImage from './components/LIImage'
 import GHImage from './components/GHImage'
 
+let id;
 
-function App() {
+function App(currentPage) {
 
   return (
     <Router>
@@ -20,7 +21,8 @@ function App() {
               <h1 className="text-white ps-3">David Leverenz</h1>
               <ul className="nav justify-content-end pt-2">
                 <li className="nav-item">
-                  <Link style={{ textDecoration: 'none' }} to="/"><p className="nav-link active text-white" aria-current="page">About Me</p></Link>
+                  <Link style={{ textDecoration: 'none' }} to="/"><p aria-current="page"                   id={id === "aboutMe" ? 'nav-link-active' : 'nav-link'}>About Me</p></Link>
+                  {/* className="nav-link active text-white"  */}
                 </li>
                 <li className="nav-item">
                   <Link style={{ textDecoration: 'none' }} to="/portfolio"><p className="nav-link text-white">Portfolio</p></Link>

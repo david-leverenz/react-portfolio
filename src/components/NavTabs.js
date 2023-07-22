@@ -4,15 +4,15 @@ function NavTabs({ currentPage, }) {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        {/* <a
+        <a
           href="#home"
-          onClick={() => handlePageChange('Home')} */}
+          onClick={() => handlePageChange('Home')}
           {/* //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for, ternary if then */}
 
           className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
-        {/* > */}
+        > */}
           {/* Home
-        </a> */}
+        </a>
       </li>
       <li className="nav-item">
         {/* <a

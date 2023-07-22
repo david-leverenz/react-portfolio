@@ -2,7 +2,7 @@ import Header from '../Header'
 const AboutMe = () => {
 
     return (
-        <div className="container">
+        <div className="container" id="aboutMe">
             <div className="row">
                 <div className='col'>
                     <h2 className="text-secondary ms-2">About Me</h2>
