@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea1d8be2.css",
-    "main.js": "/static/js/main.ea5516b3.js",
+    "main.css": "/static/css/main.cdfe2e8a.css",
+    "main.js": "/static/js/main.751c7656.js",
     "static/js/787.6bf44f92.chunk.js": "/static/js/787.6bf44f92.chunk.js",
     "static/media/day_after_tomorrow.png": "/static/media/day_after_tomorrow.c28c04c9c9b712095a1b.png",
     "static/media/Leverenz_LinkedIn219.jpg": "/static/media/Leverenz_LinkedIn219.8f44b32a786603601dae.jpg",
@@ -10,15 +10,16 @@
     "static/media/weather_dashboard.png": "/static/media/weather_dashboard.85733a627cc328e9a0b1.png",
     "static/media/text_editor.png": "/static/media/text_editor.1f56ea2a551ce818c05a.png",
     "static/media/note_taker.png": "/static/media/note_taker.831c10d813b5aa9b1def.png",
+    "static/media/stack_exchange.png": "/static/media/stack_exchange.bf7c852e3e7b83ca1717.png",
     "static/media/linkedin-logo-linkedin-icon-transparent-free-png.webp": "/static/media/linkedin-logo-linkedin-icon-transparent-free-png.c593fb09e0e564af375e.webp",
     "static/media/git_hub.png": "/static/media/git_hub.db032c97d1a71b9d1437.png",
     "index.html": "/index.html",
-    "main.ea1d8be2.css.map": "/static/css/main.ea1d8be2.css.map",
-    "main.ea5516b3.js.map": "/static/js/main.ea5516b3.js.map",
+    "main.cdfe2e8a.css.map": "/static/css/main.cdfe2e8a.css.map",
+    "main.751c7656.js.map": "/static/js/main.751c7656.js.map",
     "787.6bf44f92.chunk.js.map": "/static/js/787.6bf44f92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea1d8be2.css",
-    "static/js/main.ea5516b3.js"
+    "static/css/main.cdfe2e8a.css",
+    "static/js/main.751c7656.js"
   ]
 }
