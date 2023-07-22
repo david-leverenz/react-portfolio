@@ -1,12 +1,9 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link, Switch } from 'react-router-dom';
-import { Navbar, Nav, Container } from 'react-bootstrap';
-// import Homepage from './components/pages/Homepage';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Portfolio from './components/pages/Portfolio';
 import AboutMe from './components/pages/AboutMe';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
-// import NavTabs from './components/NavTabs';
 import LIImage from './components/LIImage'
 import GHImage from './components/GHImage'
 
@@ -20,7 +17,7 @@ function App() {
           <div className="navBar">
             <nav className="navbar navbar-light bg-secondary rounded-top-4">
 
-              <h1 className="text-white ps-2">David Leverenz</h1>
+              <h1 className="text-white ps-3">David Leverenz</h1>
               <ul className="nav justify-content-end pt-2">
                 <li className="nav-item">
                   <Link style={{ textDecoration: 'none' }} to="/"><p className="nav-link active text-white" aria-current="page">About Me</p></Link>
@@ -41,9 +38,7 @@ function App() {
           </div>
 
 
-          {/* In bootstrap-5 pl and pr is replaced ps and pe respectively */}
-
-          <Routes>
+            <Routes>
             <Route path="/" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />

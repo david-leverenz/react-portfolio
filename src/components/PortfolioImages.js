@@ -19,7 +19,7 @@ function PortfolioImages() {
                     <a className="text-decoration-none text-center text-white" href="https://glacial-retreat-55069-949bcbbb662e.herokuapp.com/" >
                         <h3>Conversa</h3>
                         <div id="darkCard" className="card">
-                            <img style={{ width: 400, height: 270 }} className="card-img rounded mx-auto d-block justify-content-center align-items-center" src={p1Image} alt="David Leverenz" />
+                            <img style={{ width: 400, height: 270 }} className="rounded mx-auto d-block" src={p1Image} alt="Conversa" />
                             <div className="card-img-overlay ps-5 pe-5 m-4">
                                 <p id="darkOverlay">
                                 This is a chat app created with Socket.io, Handlebars, Bootstrap, Node Express, Sequelize,  Express Session, MySQL, Mockaroo, Javascript, .ENV and Bcrypt.
@@ -32,7 +32,7 @@ function PortfolioImages() {
                     <a className="text-decoration-none text-center text-white" href="https://david-leverenz.github.io/day-after-tomorrow/">
                         <h3>Day After Tomorrow</h3>
                         <div id="darkCard" className="card">
-                            <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p2Image} alt="David Leverenz" />
+                            <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p2Image} alt="Day After Tomorrow" />
                             <div className="card-img-overlay ps-5 pe-5 m-4">
                                 <p id="darkOverlay">
                                     This is a trip planning app that provides weather and activities for any given city on any given day in the future using two server-side API's.  It persists previous searches in local storage.
@@ -47,7 +47,7 @@ function PortfolioImages() {
                     <a className="text-decoration-none text-center text-white" href="https://afternoon-plateau-91996-143dd3e291e8.herokuapp.com/">
                         <h3>MVC Tech Blog</h3>
                         <div id="darkCard" className="card">
-                            <img style={{ width: 420, height: 300 }} className="card-img rounded mx-auto d-block justify-content-center align-items-center" src={p3Image} alt="David Leverenz" />
+                            <img style={{ width: 420, height: 300 }} className="rounded mx-auto d-block" src={p3Image} alt="MVC Tech Blog" />
                             <div className="card-img-overlay ps-5 pe-5 m-4">
                                 <p id="lightOverlay">
                                     This is a blog site where one can publish articles, blog posts, and add thoughts and opinions.  It uses Sequelize, Handlebars, Express Session, MySQL, .ENV and Bcrypt.
@@ -60,7 +60,7 @@ function PortfolioImages() {
                     <a className="text-decoration-none text-center text-white" href="https://vast-chamber-54379-1932ca03f16e.herokuapp.com/">
                         <h3>Text Editor</h3>
                         <div id="darkCard" className="card">
-                            <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p4Image} alt="David Leverenz" />
+                            <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p4Image} alt="Text Editor" />
                             <div class="card-img-overlay p-5 m-4">
                                 <p id="lightOverlay">
                                     This is a progressive web app that is an online/offline text editor.  It uses Webpack plugins, Babel plugins, Express and if-env.
@@ -75,7 +75,7 @@ function PortfolioImages() {
                     <a className="text-decoration-none text-center text-white" href="https://shielded-wave-83330-57af74f626fa.herokuapp.com/">
                         <h3>Note Taker</h3>
                         <div id="darkCard" className="card">
-                            <img style={{ width: 400, height: 250 }} className="rounded mx-auto d-block" src={p5Image} alt="David Leverenz" />
+                            <img style={{ width: 400, height: 250 }} className="rounded mx-auto d-block" src={p5Image} alt="Note Taker" />
                             <div class="card-img-overlay ps-5 pe-5 m-4">
                                 <p id="darkOverlay">
                                     This is a note taking app.  It uses CRUD API's, Node.js and File System to add and alter data in a Json database.
@@ -88,7 +88,7 @@ function PortfolioImages() {
                     <a className="text-decoration-none text-center text-white" href="https://david-leverenz.github.io/weather-dashboard/">
                         <h3>Weather Dashboard</h3>
                         <div id="darkCard" className="card">
-                            <img style={{ width: 400, height: 280 }} className="rounded mx-auto d-block" src={p6Image} alt="David Leverenz" />
+                            <img style={{ width: 400, height: 280 }} className="rounded mx-auto d-block" src={p6Image} alt="Weather Dashboard" />
                             <div class="card-img-overlay  ps-5 pe-5 m-4">
                             <p id="darkOverlay">
                                     This is a weather app that allows one to get a five day forecast from the Open Weather API.  Data is stored in local storage to persist historical searches.
