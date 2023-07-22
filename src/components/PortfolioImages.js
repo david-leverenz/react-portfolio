@@ -6,6 +6,7 @@ import p3Image from './images/mvc_tech_blog.png';
 import p4Image from './images/text_editor.png';
 import p5Image from './images/note_taker.png';
 import p6Image from './images/weather_dashboard.png';
+import GHImage from '../components/GHImage'
 
 console.log(p1Image);
 
@@ -27,6 +28,10 @@ function PortfolioImages() {
                             </div>
                         </div>
                     </a>
+                  <div className="d-flex justify-content-center">  
+              <a href="https://github.com/Tazzok/Conversa" className="pt-3 icons align-items-center">
+                <GHImage /></a>
+                </div>
                 </div>
                 <div className="col">
                     <a className="text-decoration-none text-center text-white" href="https://david-leverenz.github.io/day-after-tomorrow/">
@@ -40,6 +45,10 @@ function PortfolioImages() {
                             </div>
                         </div>
                     </a>
+                    <div className="d-flex justify-content-center">  
+              <a href="https://github.com/david-leverenz/day-after-tomorrow" className="pt-3 icons align-items-center">
+                <GHImage /></a>
+                </div>
                 </div>
             </div>
             <div className="row pt-5">
@@ -55,6 +64,10 @@ function PortfolioImages() {
                             </div>
                         </div>
                     </a>
+                    <div className="d-flex justify-content-center">  
+              <a href="https://github.com/david-leverenz/mvc-tech-blog" className="pt-3 icons align-items-center">
+                <GHImage /></a>
+                </div>
                 </div>
                 <div className="col">
                     <a className="text-decoration-none text-center text-white" href="https://vast-chamber-54379-1932ca03f16e.herokuapp.com/">
@@ -68,6 +81,10 @@ function PortfolioImages() {
                             </div>
                         </div>
                     </a>
+                    <div className="d-flex justify-content-center">  
+              <a href="https://github.com/david-leverenz/text-editor" className="pt-3 icons align-items-center">
+                <GHImage /></a>
+                </div>
                 </div>
             </div>
             <div className="row pt-5 pb-3">
@@ -83,6 +100,10 @@ function PortfolioImages() {
                             </div>
                         </div>
                     </a>
+                    <div className="d-flex justify-content-center">  
+              <a href="https://github.com/david-leverenz/note-taker" className="pt-3 icons align-items-center">
+                <GHImage /></a>
+                </div>
                 </div>
                 <div className="col">
                     <a className="text-decoration-none text-center text-white" href="https://david-leverenz.github.io/weather-dashboard/">
@@ -96,6 +117,10 @@ function PortfolioImages() {
                             </div>
                         </div>
                     </a>
+                    <div className="d-flex justify-content-center">  
+              <a href="https://github.com/david-leverenz/weather-dashboard" className="pt-3 icons align-items-center">
+                <GHImage /></a>
+                </div>
                 </div>
             </div>
         </div>

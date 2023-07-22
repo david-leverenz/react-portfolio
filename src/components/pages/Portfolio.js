@@ -3,13 +3,11 @@ const Portfolio = () => {
 
     return (
         <div className="container">
-            <div >
                 <div className="row">
                     <div className='col'>
                         <h2 className="ms-2 text-secondary">Portfolio</h2>
                     </div>
                 </div>
-            </div>
             <div><PortfolioImages /></div>
         </div>
     )
