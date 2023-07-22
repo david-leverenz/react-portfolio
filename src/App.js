@@ -7,6 +7,7 @@ import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 // import NavTabs from './components/NavTabs';
 import LIImage from './components/LIImage'
+import GHImage from './components/GHImage'
 
 function App() {
 
@@ -48,7 +49,10 @@ function App() {
       </Routes>
    
       <footer className="footer bg-secondary rounded-bottom-4 m-3 border border-3 border-white">
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center align-items-center">
+        <a href="https://github.com/david-leverenz/" className="text-decoration=none align-items-center">
+            <GHImage />
+            </a>
           <a href="https://www.linkedin.com/in/david-leverenz" className="text-decoration=none align-items-center">
             <LIImage />
           </a>
