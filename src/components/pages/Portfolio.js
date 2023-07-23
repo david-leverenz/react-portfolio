@@ -1,3 +1,4 @@
+// Portfolio page.  Brings in the main portfolio page.
 import PortfolioImages from '../PortfolioImages'
 const Portfolio = () => {
 

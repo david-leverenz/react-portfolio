@@ -1,3 +1,4 @@
+/* There was a lot of repetitive Bootstrap formatting so I decided to use a .csss file. */
 #darkCard {
     background-color: #6c757d;
     border: none;

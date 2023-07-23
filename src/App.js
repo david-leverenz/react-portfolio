@@ -57,11 +57,9 @@ function App(currentPage) {
               <a href="https://github.com/david-leverenz/" className="icons">
                 <GHImage />
               </a>
-              <a href="https://www.linkedin.com/in/david-leverenz" className="icons">
+              <a  href="https://www.linkedin.com/in/david-leverenz" className="icons ps-2">
                 <LIImage />
-
               </a>
-
             </div>
           </footer>
         </div>

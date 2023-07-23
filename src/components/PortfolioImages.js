@@ -1,3 +1,4 @@
+// This is the main portfolio page. I could have imported the files as js pages but decided to do it this way.  Since i already had the the GitHub image as a js file I did that one as a js file.
 import React from 'react';
 import '../Portfolio.css';
 import p1Image from './images/Conversa.png';
@@ -9,6 +10,8 @@ import p6Image from './images/weather_dashboard.png';
 import GHImage from '../components/GHImage'
 
 console.log(p1Image);
+
+// Bootstrap is great but I decided to use .css files for some of my formatting because it was repetitive and super confusing to read on the page.
 
 function PortfolioImages() {
 

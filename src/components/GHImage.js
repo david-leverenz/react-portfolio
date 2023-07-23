@@ -1,3 +1,4 @@
+// This is the Git Hub image.
 import React from 'react';
 import GH_logo from './images/git_hub.png';
 

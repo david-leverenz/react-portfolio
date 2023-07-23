@@ -1,3 +1,4 @@
+// I decided to put all of the content on this page instead of linking it to something else.
 const Resume = () => {
 
     return (

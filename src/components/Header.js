@@ -1,3 +1,4 @@
+// This is the picture of me.  I hate it but it's the only one I have.
 import React from 'react';
 import dave from './images/Leverenz_LinkedIn219.jpg';
 

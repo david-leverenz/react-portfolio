@@ -1,3 +1,4 @@
+// Contact form.  Uses the form I created in Bootsrap.
 import Form from '../Form';
 
 const Contact = () => {
@@ -11,7 +12,8 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <div><Form /></div>
+            <div><Form />
+            </div>
         </div>
     )
 }
