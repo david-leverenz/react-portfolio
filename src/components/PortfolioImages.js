@@ -9,8 +9,6 @@ import p5Image from './images/note_taker.png';
 import p6Image from './images/weather_dashboard.png';
 import GHImage from '../components/GHImage'
 
-console.log(p1Image);
-
 // Bootstrap is great but I decided to use .css files for some of my formatting because it was repetitive and super confusing to read on the page.
 
 function PortfolioImages() {
