@@ -67,6 +67,7 @@ function Form() {
                             onChange={handleInputChange}
                             type="text"
                             placeholder="  Name"
+                            required
                         />
                         <input className="rounded"
                             value={email}
@@ -74,6 +75,7 @@ function Form() {
                             onChange={handleInputChange}
                             type="email"
                             placeholder="  Email"
+                            required
                         />
 
                         <textarea className="form-control rounded"
@@ -83,14 +85,15 @@ function Form() {
                             type="message"
                             placeholder="Message"
                             rows="5"
+                            required
                         />
-                        <p>
+             
                             <div className="d-grid pt-2">
                             <button className="btn btn-outline-light" type="button" onClick={handleFormSubmit}>
                                 Submit
                             </button>
                             </div>
-                        </p>
+                
                     </form>
                     {errorMessage && (
                         <div>

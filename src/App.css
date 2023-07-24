@@ -8,12 +8,18 @@
     
 }
 
-#nav-link-active {
+.navLinkActive {
 color: white;
+padding-top: 4px;
+padding-left: 10px;
+padding-right: 10px;
 }
 
-#nav-link {
-color:red;
+.navLinkPlain {
+color:darkgray;
+padding-top: 5px;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 .icons {

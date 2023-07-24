@@ -1,5 +1,6 @@
+import React, { useState} from "react"
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'; // this does not work with github pages.
 import Portfolio from './components/pages/Portfolio';
 import AboutMe from './components/pages/AboutMe';
 import Contact from './components/pages/Contact';
@@ -8,10 +9,11 @@ import LIImage from './components/LIImage'
 import GHImage from './components/GHImage'
 import SEImage from './components/SEImage'
 
-let id;
 
-function App(currentPage) {
 
+function App() {
+let [currentPage, setcurrentpage] = useState("aboutMe")
+const handlePageChange = (page) => setcurrentpage(page)
   return (
     <Router>
       {/* <div className="pageContainer display-flex flex-direction-colum justify-content-center align-items-flex-start"> */}
@@ -22,18 +24,17 @@ function App(currentPage) {
               <h1 className="text-white ps-3">David Leverenz</h1>
               <ul className="nav justify-content-end pt-2">
                 <li className="nav-item">
-                  <Link style={{ textDecoration: 'none' }} to="/"><p aria-current="page" id={id === "aboutMe" ? 'nav-link-active' : 'nav-link'}>About Me</p></Link>
-                  {/* className="nav-link active text-white"  */}
+                  <Link style={{ textDecoration: 'none' }} to="/"><p aria-current="page" className={currentPage === "aboutMe" ? 'navLinkActive' : 'navLinkPlain'}>About Me</p></Link>
+                 </li>
+                <li className="nav-item">
+                  <Link style={{ textDecoration: 'none' }} to="/portfolio"><p aria-current="page" className={currentPage === "portfolio" ? 'navLinkActive' : 'navLinkPlain'}>Portfolio</p></Link>
                 </li>
                 <li className="nav-item">
-                  <Link style={{ textDecoration: 'none' }} to="/portfolio"><p className="nav-link text-white">Portfolio</p></Link>
-                </li>
-                <li className="nav-item">
-                  <Link style={{ textDecoration: 'none' }} to="/contact"><p className="nav-link text-white">Contact</p></Link>
+                  <Link style={{ textDecoration: 'none' }} to="/contact"><p aria-current="page" className={currentPage === "contact" ? 'navLinkActive' : 'navLinkPlain'}>Contact</p></Link>
                 </li>
                 <li className="nav-item">
 
-                  <Link style={{ textDecoration: 'none' }} to="/resume"><p className="nav-link disabled text-white">Resume</p></Link>
+                  <Link style={{ textDecoration: 'none' }} to="/resume"><p aria-current="page" className={currentPage === "resume" ? 'navLinkActive' : 'navLinkPlain'}>Resume</p></Link>
                 </li>
               </ul>
             </nav>
@@ -42,10 +43,10 @@ function App(currentPage) {
 
 
           <Routes>
-            <Route path="/" element={<AboutMe />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/resume" element={<Resume />} />
+            <Route path="/" element={<AboutMe handlepagechange={handlePageChange}/>} />
+            <Route path="/portfolio" element={<Portfolio handlepagechange={handlePageChange}/>} />
+            <Route path="/contact" element={<Contact handlepagechange={handlePageChange}/>} />
+            <Route path="/resume" element={<Resume handlepagechange={handlePageChange}/>} />
           </Routes>
 
 

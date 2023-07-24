@@ -1,8 +1,9 @@
 // I decided to put all of the content on this page instead of linking it to something else.
-const Resume = () => {
 
+const Resume = ({handlepagechange}) => {
+    handlepagechange('resume')
     return (
-        <div className=" container">
+        <div className="container">
             <div className="row ps-2">
                 <div className='col'></div>
                 <h2 className="text-secondary">Resume</h2>
