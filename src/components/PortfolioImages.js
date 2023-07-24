@@ -75,7 +75,7 @@ function PortfolioImages() {
                         <h3>Text Editor</h3>
                         <div id="darkCard" className="card">
                             <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p4Image} alt="Text Editor" />
-                            <div class="card-img-overlay p-5 m-4">
+                            <div className="card-img-overlay p-5 m-4">
                                 <p id="lightOverlay">
                                     This is a progressive web app that is an online/offline text editor.  It uses Webpack plugins, Babel plugins, Express and if-env.
                                 </p>
@@ -94,7 +94,7 @@ function PortfolioImages() {
                         <h3>Note Taker</h3>
                         <div id="darkCard" className="card">
                             <img style={{ width: 400, height: 250 }} className="rounded mx-auto d-block" src={p5Image} alt="Note Taker" />
-                            <div class="card-img-overlay ps-5 pe-5 m-4">
+                            <div className="card-img-overlay ps-5 pe-5 m-4">
                                 <p id="darkOverlay">
                                     This is a note taking app.  It uses CRUD API's, Node.js and File System to add and alter data in a Json database.
                                 </p>
@@ -111,7 +111,7 @@ function PortfolioImages() {
                         <h3>Weather Dashboard</h3>
                         <div id="darkCard" className="card">
                             <img style={{ width: 400, height: 280 }} className="rounded mx-auto d-block" src={p6Image} alt="Weather Dashboard" />
-                            <div class="card-img-overlay  ps-5 pe-5 m-4">
+                            <div className="card-img-overlay  ps-5 pe-5 m-4">
                             <p id="darkOverlay">
                                     This is a weather app that allows one to get a five day forecast from the Open Weather API.  Data is stored in local storage to persist historical searches.
                                 </p>

@@ -9,11 +9,11 @@ import LIImage from './components/LIImage'
 import GHImage from './components/GHImage'
 import SEImage from './components/SEImage'
 
-
-
 function App() {
 let [currentPage, setcurrentpage] = useState("aboutMe")
+
 const handlePageChange = (page) => setcurrentpage(page)
+
   return (
     <Router>
       {/* <div className="pageContainer display-flex flex-direction-colum justify-content-center align-items-flex-start"> */}
