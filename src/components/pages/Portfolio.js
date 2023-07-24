@@ -1,6 +1,7 @@
 // Portfolio page.  Brings in the main portfolio page.
 import PortfolioImages from '../PortfolioImages'
 
+// handlepagechange set the value of the current page so I can run logic on it.
 const Portfolio = ({ handlepagechange }) => {
     handlepagechange('portfolio')
 

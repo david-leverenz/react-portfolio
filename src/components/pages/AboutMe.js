@@ -1,8 +1,9 @@
 // Importing picture for the page.
 import Header from '../Header'
 
-const AboutMe = ({handlepagechange}) => {
-handlepagechange('aboutMe')
+// handlepagechange set the value of the current page so I can run logic on it.
+const AboutMe = ({ handlepagechange }) => {
+    handlepagechange('aboutMe')
     return (
         <div className="container" id="aboutMe">
             <div className="row">

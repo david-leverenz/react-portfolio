@@ -45,7 +45,7 @@ function Form() {
             setErrorMessage('Please include a message');
             return;
         }
-            // We want to exit out of this code block if something is wrong so that the user can correct it, thus the returns.
+        // We want to exit out of this code block if something is wrong so that the user can correct it, thus the returns.
 
         // If successful, we want to clear out the input after registration.
         setName('');
@@ -53,53 +53,53 @@ function Form() {
         setMessage('');
         alert(`Hello ${name}`);
     };
-// I was able to format the Contact Me form by using Bootstrap columns.  Without it the width of the form elements was super hard to conttrol.
+    // I was able to format the Contact Me form by using Bootstrap columns.  Without it the width of the form elements was super hard to conttrol.
     return (
         <div className="p-2">
             <div className="p-4 container bg-secondary">
                 <div className="row">
-                <div className="col"></div>
-                <div className="col">
-                    <form className="form">
-                        <input className="rounded"
-                            value={name}
-                            name="name"
-                            onChange={handleInputChange}
-                            type="text"
-                            placeholder="  Name"
-                            required
-                        />
-                        <input className="rounded"
-                            value={email}
-                            name="email"
-                            onChange={handleInputChange}
-                            type="email"
-                            placeholder="  Email"
-                            required
-                        />
+                    <div className="col"></div>
+                    <div className="col">
+                        <form className="form">
+                            <input className="rounded"
+                                value={name}
+                                name="name"
+                                onChange={handleInputChange}
+                                type="text"
+                                placeholder="  Name"
+                                required
+                            />
+                            <input className="rounded"
+                                value={email}
+                                name="email"
+                                onChange={handleInputChange}
+                                type="email"
+                                placeholder="  Email"
+                                required
+                            />
 
-                        <textarea className="form-control rounded"
-                            value={message}
-                            name="message"
-                            onChange={handleInputChange}
-                            type="message"
-                            placeholder="Message"
-                            rows="5"
-                            required
-                        />
-             
+                            <textarea className="form-control rounded"
+                                value={message}
+                                name="message"
+                                onChange={handleInputChange}
+                                type="message"
+                                placeholder="Message"
+                                rows="5"
+                                required
+                            />
+
                             <div className="d-grid pt-2">
-                            <button className="btn btn-outline-light" type="button" onClick={handleFormSubmit}>
-                                Submit
-                            </button>
+                                <button className="btn btn-outline-light" type="button" onClick={handleFormSubmit}>
+                                    Submit
+                                </button>
                             </div>
-                
-                    </form>
-                    {errorMessage && (
-                        <div>
-                            <p className="error-text text-light">{errorMessage}</p>
-                        </div>
-                    )}
+
+                        </form>
+                        {errorMessage && (
+                            <div>
+                                <p className="error-text text-light">{errorMessage}</p>
+                            </div>
+                        )}
                     </div>
                     <div className="col"></div>
                 </div>

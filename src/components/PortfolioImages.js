@@ -24,15 +24,15 @@ function PortfolioImages() {
                             <img style={{ width: 400, height: 270 }} className="rounded mx-auto d-block" src={p1Image} alt="Conversa" />
                             <div className="card-img-overlay ps-5 pe-5 m-4">
                                 <p id="darkOverlay">
-                                This is a chat app created with Socket.io, Handlebars, Bootstrap, Node Express, Sequelize,  Express Session, MySQL, Mockaroo, Javascript, .ENV and Bcrypt.
+                                    This is a chat app created with Socket.io, Handlebars, Bootstrap, Node Express, Sequelize,  Express Session, MySQL, Mockaroo, Javascript, .ENV and Bcrypt.
                                 </p>
                             </div>
                         </div>
                     </a>
-                  <div className="d-flex justify-content-center">  
-              <a href="https://github.com/Tazzok/Conversa" className="pt-3 icons align-items-center">
-                <GHImage /></a>
-                </div>
+                    <div className="d-flex justify-content-center">
+                        <a href="https://github.com/Tazzok/Conversa" className="pt-3 icons align-items-center">
+                            <GHImage /></a>
+                    </div>
                 </div>
                 <div className="col">
                     <a className="text-decoration-none text-center text-white" href="https://david-leverenz.github.io/day-after-tomorrow/">
@@ -46,10 +46,10 @@ function PortfolioImages() {
                             </div>
                         </div>
                     </a>
-                    <div className="d-flex justify-content-center">  
-              <a href="https://github.com/david-leverenz/day-after-tomorrow" className="pt-3 icons align-items-center">
-                <GHImage /></a>
-                </div>
+                    <div className="d-flex justify-content-center">
+                        <a href="https://github.com/david-leverenz/day-after-tomorrow" className="pt-3 icons align-items-center">
+                            <GHImage /></a>
+                    </div>
                 </div>
             </div>
             <div className="row pt-5">
@@ -65,10 +65,10 @@ function PortfolioImages() {
                             </div>
                         </div>
                     </a>
-                    <div className="d-flex justify-content-center">  
-              <a href="https://github.com/david-leverenz/mvc-tech-blog" className="pt-3 icons align-items-center">
-                <GHImage /></a>
-                </div>
+                    <div className="d-flex justify-content-center">
+                        <a href="https://github.com/david-leverenz/mvc-tech-blog" className="pt-3 icons align-items-center">
+                            <GHImage /></a>
+                    </div>
                 </div>
                 <div className="col">
                     <a className="text-decoration-none text-center text-white" href="https://vast-chamber-54379-1932ca03f16e.herokuapp.com/">
@@ -82,10 +82,10 @@ function PortfolioImages() {
                             </div>
                         </div>
                     </a>
-                    <div className="d-flex justify-content-center">  
-              <a href="https://github.com/david-leverenz/text-editor" className="pt-3 icons align-items-center">
-                <GHImage /></a>
-                </div>
+                    <div className="d-flex justify-content-center">
+                        <a href="https://github.com/david-leverenz/text-editor" className="pt-3 icons align-items-center">
+                            <GHImage /></a>
+                    </div>
                 </div>
             </div>
             <div className="row pt-5 pb-3">
@@ -101,10 +101,10 @@ function PortfolioImages() {
                             </div>
                         </div>
                     </a>
-                    <div className="d-flex justify-content-center">  
-              <a href="https://github.com/david-leverenz/note-taker" className="pt-3 icons align-items-center">
-                <GHImage /></a>
-                </div>
+                    <div className="d-flex justify-content-center">
+                        <a href="https://github.com/david-leverenz/note-taker" className="pt-3 icons align-items-center">
+                            <GHImage /></a>
+                    </div>
                 </div>
                 <div className="col">
                     <a className="text-decoration-none text-center text-white" href="https://david-leverenz.github.io/weather-dashboard/">
@@ -112,16 +112,16 @@ function PortfolioImages() {
                         <div id="darkCard" className="card">
                             <img style={{ width: 400, height: 280 }} className="rounded mx-auto d-block" src={p6Image} alt="Weather Dashboard" />
                             <div className="card-img-overlay  ps-5 pe-5 m-4">
-                            <p id="darkOverlay">
+                                <p id="darkOverlay">
                                     This is a weather app that allows one to get a five day forecast from the Open Weather API.  Data is stored in local storage to persist historical searches.
                                 </p>
                             </div>
                         </div>
                     </a>
-                    <div className="d-flex justify-content-center">  
-              <a href="https://github.com/david-leverenz/weather-dashboard" className="pt-3 icons align-items-center">
-                <GHImage /></a>
-                </div>
+                    <div className="d-flex justify-content-center">
+                        <a href="https://github.com/david-leverenz/weather-dashboard" className="pt-3 icons align-items-center">
+                            <GHImage /></a>
+                    </div>
                 </div>
             </div>
         </div>

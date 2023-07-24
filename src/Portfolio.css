@@ -1,18 +1,17 @@
-/* There was a lot of repetitive Bootstrap formatting so I decided to use a .csss file. */
+/* There was a lot of repetitive Bootstrap formatting so I decided to use a .css file. */
 #darkCard {
     background-color: #6c757d;
     border: none;
-    
 }
 
 #lightOverlay {
     padding: 8px;
     margin: 40px;
-    color:  black;
+    color: black;
     background-color: white;
-    border-radius: 8px ;
+    border-radius: 8px;
     opacity: 0.75;
-    
+
 }
 
 #darkOverlay {
@@ -20,6 +19,6 @@
     margin: 40px;
     color: white;
     background-color: #6c757d;
-    border-radius: 8px ;
+    border-radius: 8px;
     opacity: 0.75;
 }

@@ -1,10 +1,11 @@
 // Contact form.  Uses the form I created in Bootsrap.
 import Form from '../Form';
 
-const Contact = ({handlepagechange}) => {
+// handlepagechange set the value of the current page so I can run logic on it.
+const Contact = ({ handlepagechange }) => {
     handlepagechange('contact')
     return (
-                <div className="container">
+        <div className="container">
             <div >
                 <div className="row">
                     <div className='col'>
