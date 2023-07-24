@@ -38,6 +38,6 @@ Version 1.0 Initial Release
 ## License
 This project is licensed under the MIT license.
 ## Acknowledgments
-Who will receive the honor of my acknowledgement?
+Poornima, Sam and Dom stayed WAY late to help me resolve issues with GH Pages.  Although we didn't resolve the issue, they are saints!  Thank you!
 
 
