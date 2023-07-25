@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio-app/static/css/main.5ed13a13.css",
-    "main.js": "/react-portfolio-app/static/js/main.1973989d.js",
-    "static/js/787.6bf44f92.chunk.js": "/react-portfolio-app/static/js/787.6bf44f92.chunk.js",
-    "static/media/day_after_tomorrow.png": "/react-portfolio-app/static/media/day_after_tomorrow.c28c04c9c9b712095a1b.png",
-    "static/media/Leverenz_LinkedIn219.jpg": "/react-portfolio-app/static/media/Leverenz_LinkedIn219.8f44b32a786603601dae.jpg",
-    "static/media/Conversa.png": "/react-portfolio-app/static/media/Conversa.b02f0198825f7a6d2c45.png",
-    "static/media/mvc_tech_blog.png": "/react-portfolio-app/static/media/mvc_tech_blog.3becebd6e6c9383dc9f9.png",
-    "static/media/weather_dashboard.png": "/react-portfolio-app/static/media/weather_dashboard.85733a627cc328e9a0b1.png",
-    "static/media/text_editor.png": "/react-portfolio-app/static/media/text_editor.1f56ea2a551ce818c05a.png",
-    "static/media/note_taker.png": "/react-portfolio-app/static/media/note_taker.831c10d813b5aa9b1def.png",
-    "static/media/stack_exchange.png": "/react-portfolio-app/static/media/stack_exchange.bf7c852e3e7b83ca1717.png",
-    "static/media/linkedin-logo-linkedin-icon-transparent-free-png.webp": "/react-portfolio-app/static/media/linkedin-logo-linkedin-icon-transparent-free-png.c593fb09e0e564af375e.webp",
-    "static/media/git_hub.png": "/react-portfolio-app/static/media/git_hub.db032c97d1a71b9d1437.png",
-    "index.html": "/react-portfolio-app/index.html",
-    "main.5ed13a13.css.map": "/react-portfolio-app/static/css/main.5ed13a13.css.map",
-    "main.1973989d.js.map": "/react-portfolio-app/static/js/main.1973989d.js.map",
-    "787.6bf44f92.chunk.js.map": "/react-portfolio-app/static/js/787.6bf44f92.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.1e4db7b7.css",
+    "main.js": "/react-portfolio/static/js/main.9f14915f.js",
+    "static/js/787.6bf44f92.chunk.js": "/react-portfolio/static/js/787.6bf44f92.chunk.js",
+    "static/media/day_after_tomorrow.png": "/react-portfolio/static/media/day_after_tomorrow.c28c04c9c9b712095a1b.png",
+    "static/media/Leverenz_LinkedIn219.jpg": "/react-portfolio/static/media/Leverenz_LinkedIn219.8f44b32a786603601dae.jpg",
+    "static/media/Conversa.png": "/react-portfolio/static/media/Conversa.b02f0198825f7a6d2c45.png",
+    "static/media/mvc_tech_blog.png": "/react-portfolio/static/media/mvc_tech_blog.3becebd6e6c9383dc9f9.png",
+    "static/media/weather_dashboard.png": "/react-portfolio/static/media/weather_dashboard.85733a627cc328e9a0b1.png",
+    "static/media/text_editor.png": "/react-portfolio/static/media/text_editor.1f56ea2a551ce818c05a.png",
+    "static/media/note_taker.png": "/react-portfolio/static/media/note_taker.831c10d813b5aa9b1def.png",
+    "static/media/stack_exchange.png": "/react-portfolio/static/media/stack_exchange.bf7c852e3e7b83ca1717.png",
+    "static/media/linkedin-logo-linkedin-icon-transparent-free-png.webp": "/react-portfolio/static/media/linkedin-logo-linkedin-icon-transparent-free-png.c593fb09e0e564af375e.webp",
+    "static/media/git_hub.png": "/react-portfolio/static/media/git_hub.db032c97d1a71b9d1437.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.1e4db7b7.css.map": "/react-portfolio/static/css/main.1e4db7b7.css.map",
+    "main.9f14915f.js.map": "/react-portfolio/static/js/main.9f14915f.js.map",
+    "787.6bf44f92.chunk.js.map": "/react-portfolio/static/js/787.6bf44f92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ed13a13.css",
-    "static/js/main.1973989d.js"
+    "static/css/main.1e4db7b7.css",
+    "static/js/main.9f14915f.js"
   ]
 }
