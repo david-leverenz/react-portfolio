@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'; // this does not work with github pages.
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'; // this does not work with github pages.
 import Portfolio from './components/pages/Portfolio';
 import AboutMe from './components/pages/AboutMe';
 import Contact from './components/pages/Contact';
