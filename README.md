@@ -19,7 +19,7 @@ When you view the footer you are presented with text or icon links to my GitHub 
 
 ## Links
 **GitHub:** https://github.com/david-leverenz/react-portfolio<br>
-**Live Link:** https://david-leverenz.github.io/react-portfolio/<br>
+**Live Link:** https://jovial-jelly-b317eb.netlify.app/#/<br>
 **Screen Shot:** <br>
 
 
