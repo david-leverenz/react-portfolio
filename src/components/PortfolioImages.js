@@ -4,9 +4,10 @@ import '../Portfolio.css';
 import p1Image from './images/Conversa.png';
 import p2Image from './images/day_after_tomorrow.png';
 import p3Image from './images/mvc_tech_blog.png';
-import p4Image from './images/text_editor.png';
+// import p4Image from './images/text_editor.png';
 import p5Image from './images/note_taker.png';
 import p6Image from './images/weather_dashboard.png';
+import p7Image from './images/fitquest_dashboard.png';
 import GHImage from '../components/GHImage'
 
 // Bootstrap is great but I decided to use .css files for some of my formatting because it was repetitive and super confusing to read on the page.
@@ -18,13 +19,30 @@ function PortfolioImages() {
 
             <div className="row pt-3">
                 <div className="col">
-                    <a className="text-decoration-none text-center text-white" href="https://glacial-retreat-55069-949bcbbb662e.herokuapp.com/" >
+                    <a className="text-decoration-none text-center text-white" href="https://thefitquest-f221afc55767.herokuapp.com/" >
+                        <h3>FitQuest</h3>
+                        <div id="darkCard" className="card">
+                            <img style={{ width: 400, height: 270 }} className="rounded mx-auto d-block" src={p7Image} alt="FitQuest" />
+                            <div className="card-img-overlay ps-5 pe-5 m-4">
+                                <p id="darkOverlay">
+                                    This is a gaming fitness tracking app created with React, Apollo Server, GraphQL, MongoDB, Bootstrap, Node Express, Json Web Token, Javascript, .ENV and Bcrypt.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <div className="d-flex justify-content-center">
+                        <a href="https://github.com/david-leverenz/FitQuest" className="pt-3 icons align-items-center">
+                            <GHImage /></a>
+                    </div>
+                </div>
+                <div className="col">
+                <a className="text-decoration-none text-center text-white" href="https://glacial-retreat-55069-949bcbbb662e.herokuapp.com/" >
                         <h3>Conversa</h3>
                         <div id="darkCard" className="card">
                             <img style={{ width: 400, height: 270 }} className="rounded mx-auto d-block" src={p1Image} alt="Conversa" />
                             <div className="card-img-overlay ps-5 pe-5 m-4">
                                 <p id="darkOverlay">
-                                    This is a chat app created with Socket.io, Handlebars, Bootstrap, Node Express, Sequelize,  Express Session, MySQL, Mockaroo, Javascript, .ENV and Bcrypt.
+                                    This is a chat app created with Socket.io, Handlebars, Bootstrap, Node Express, Sequelize, Express Session, MySQL, Mockaroo, Javascript, .ENV and Bcrypt.
                                 </p>
                             </div>
                         </div>
@@ -34,8 +52,10 @@ function PortfolioImages() {
                             <GHImage /></a>
                     </div>
                 </div>
+            </div>
+            <div className="row pt-5">
                 <div className="col">
-                    <a className="text-decoration-none text-center text-white" href="https://david-leverenz.github.io/day-after-tomorrow/">
+                <a className="text-decoration-none text-center text-white" href="https://david-leverenz.github.io/day-after-tomorrow/">
                         <h3>Day After Tomorrow</h3>
                         <div id="darkCard" className="card">
                             <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p2Image} alt="Day After Tomorrow" />
@@ -51,10 +71,8 @@ function PortfolioImages() {
                             <GHImage /></a>
                     </div>
                 </div>
-            </div>
-            <div className="row pt-5">
                 <div className="col">
-                    <a className="text-decoration-none text-center text-white" href="https://afternoon-plateau-91996-143dd3e291e8.herokuapp.com/">
+                <a className="text-decoration-none text-center text-white" href="https://afternoon-plateau-91996-143dd3e291e8.herokuapp.com/">
                         <h3>MVC Tech Blog</h3>
                         <div id="darkCard" className="card">
                             <img style={{ width: 420, height: 300 }} className="rounded mx-auto d-block" src={p3Image} alt="MVC Tech Blog" />
@@ -67,23 +85,6 @@ function PortfolioImages() {
                     </a>
                     <div className="d-flex justify-content-center">
                         <a href="https://github.com/david-leverenz/mvc-tech-blog" className="pt-3 icons align-items-center">
-                            <GHImage /></a>
-                    </div>
-                </div>
-                <div className="col">
-                    <a className="text-decoration-none text-center text-white" href="https://vast-chamber-54379-1932ca03f16e.herokuapp.com/">
-                        <h3>Text Editor</h3>
-                        <div id="darkCard" className="card">
-                            <img style={{ width: 400, height: 300 }} className="rounded mx-auto d-block" src={p4Image} alt="Text Editor" />
-                            <div className="card-img-overlay p-5 m-4">
-                                <p id="lightOverlay">
-                                    This is a progressive web app that is an online/offline text editor.  It uses Webpack plugins, Babel plugins, Express and if-env.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <div className="d-flex justify-content-center">
-                        <a href="https://github.com/david-leverenz/text-editor" className="pt-3 icons align-items-center">
                             <GHImage /></a>
                     </div>
                 </div>
