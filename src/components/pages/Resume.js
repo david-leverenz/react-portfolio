@@ -19,11 +19,11 @@ const Resume = ({ handlepagechange }) => {
 
                                 <h5 className="text-decoration-none text-light">Qualifications</h5>
                                 <ul className="text-decoration-none text-light">
-                                    <li>Googling answers (chatGPT freaks me out).</li>
-                                    <li>Cut/paste/adjust to make things work.</li>
-                                    <li>Wasting valuable class time by asking too many questions.</li>
-                                    <li>Monopolizing office hours until Poornima does it for me.</li>
-                                    <li>I'm actually terrifed of getting a job.  Please do not contact!</li>
+                                    <li>Over 30 years experience in the technical field.</li>
+                                    <li>Proven managerial track record for developing highly productive teams.</li>
+                                    <li>Ability to solve problems quickly drive successful projects.</li>
+                                    <li>Recent completion of full stack coding bootcamp.</li>
+                                    <li>Excellent knowledge of Microsoft Office including Excel and Access.</li>
                                 </ul>
 
                             </div>
