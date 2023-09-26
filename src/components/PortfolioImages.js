@@ -14,6 +14,11 @@ import GHImage from '../components/GHImage'
 
 function PortfolioImages() {
 
+    const handleClick = () => {
+        // Display an alert when the link is clicked
+        window.alert('Unfortunately, this link is temporarily unavailble');
+      };
+
     return <div className="p-2">
         <div className="p-4 container bg-secondary">
 
@@ -36,7 +41,7 @@ function PortfolioImages() {
                     </div>
                 </div>
                 <div className="col">
-                <a className="text-decoration-none text-center text-white" href="https://glacial-retreat-55069-949bcbbb662e.herokuapp.com/" >
+                <a className="text-decoration-none text-center text-white" href="#/portfolio" onClick={handleClick}>
                         <h3>Conversa</h3>
                         <div id="darkCard" className="card">
                             <img style={{ width: 400, height: 270 }} className="rounded mx-auto d-block" src={p1Image} alt="Conversa" />
